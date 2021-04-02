@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jxxsy</title>
+  
+  <subtitle>Jxxsy的个人站</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://jxxsy.gitee.io/"/>
+  <updated>2021-04-02T07:36:17.504Z</updated>
+  <id>https://jxxsy.gitee.io/</id>
+  
+  <author>
+    <name>Jxxsy</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>请帮我一把</title>
+    <link href="https://jxxsy.gitee.io/2021/03/23/%E6%91%84%E5%BD%B1001/"/>
+    <id>https://jxxsy.gitee.io/2021/03/23/摄影001/</id>
+    <published>2021-03-23T06:23:08.000Z</published>
+    <updated>2021-04-02T07:36:17.504Z</updated>
+    
+    <summary type="html">
+    
+      一些照片
+    
+    </summary>
+    
+      <category term="摄影" scheme="https://jxxsy.gitee.io/categories/%E6%91%84%E5%BD%B1/"/>
+    
+    
+      <category term="web" scheme="https://jxxsy.gitee.io/tags/web/"/>
+    
+      <category term="悦读" scheme="https://jxxsy.gitee.io/tags/%E6%82%A6%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>去日的像</title>
+    <link href="https://jxxsy.gitee.io/2021/02/03/%E6%91%84%E5%BD%B1002/"/>
+    <id>https://jxxsy.gitee.io/2021/02/03/摄影002/</id>
+    <published>2021-02-03T02:23:00.000Z</published>
+    <updated>2021-04-02T08:23:33.496Z</updated>
+    
+    <summary type="html">
+    
+      一些照片
+    
+    </summary>
+    
+      <category term="摄影" scheme="https://jxxsy.gitee.io/categories/%E6%91%84%E5%BD%B1/"/>
+    
+    
+      <category term="web" scheme="https://jxxsy.gitee.io/tags/web/"/>
+    
+      <category term="悦读" scheme="https://jxxsy.gitee.io/tags/%E6%82%A6%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Jxxsy个人站</title>
+    <link href="https://jxxsy.gitee.io/2020/12/12/hello-world/"/>
+    <id>https://jxxsy.gitee.io/2020/12/12/hello-world/</id>
+    <published>2020-12-12T14:16:01.000Z</published>
+    <updated>2021-04-02T04:51:41.035Z</updated>
+    
+    <summary type="html">
+    
+      本站说明（使用指南）
+    
+    </summary>
+    
+      <category term="技术" scheme="https://jxxsy.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="web" scheme="https://jxxsy.gitee.io/tags/web/"/>
+    
+      <category term="悦读" scheme="https://jxxsy.gitee.io/tags/%E6%82%A6%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo-Theme-Sakura</title>
+    <link href="https://jxxsy.gitee.io/2018/12/12/Hexo-Theme-Sakura/"/>
+    <id>https://jxxsy.gitee.io/2018/12/12/Hexo-Theme-Sakura/</id>
+    <published>2018-12-12T14:16:01.000Z</published>
+    <updated>2021-04-02T07:40:47.760Z</updated>
+    
+    <summary type="html">
+    
+      hexo-sakura主题使用教程
+    
+    </summary>
+    
+      <category term="技术" scheme="https://jxxsy.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="web" scheme="https://jxxsy.gitee.io/tags/web/"/>
+    
+      <category term="悦读" scheme="https://jxxsy.gitee.io/tags/%E6%82%A6%E8%AF%BB/"/>
+    
+  </entry>
+  
+</feed>
