@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">lab | Jxxsy</title>
+  <title itemprop="name">FL studio延音踏板写法 | Jxxsy</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -362,61 +362,163 @@
   </div>
 </header>
 
-        <div class="pattern-center-blank"></div>
-  
-    <div class="pattern-center ">
-      <div class="pattern-attachment-img">
-        <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/banner/lab.jpg" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
-      </div>
-      <header class="pattern-header ">
-        <h1 class="entry-title">
-        Lab实验室</h1>
-      </header>
-    </div>
-  
-  <div id="content" class="site-content">
-    <article class="post-item post-301 page type-page status-publish has-post-thumbnail hentry">
-      <h2 id="sakura主题"><a href="#sakura主题" class="headerlink" title="sakura主题"></a>sakura主题</h2><p>balabala</p>
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+<div class="pattern-center-blank"></div>
 
-      <!-- .entry-content -->
-      
-      <div class="single-reward">
-        <div class="reward-open">赏
-          <div class="reward-main">
-            <ul class="reward-row">
-              <li class="alipay-code"><img src="https://CDN.jsdelivr.net/gh/jxxsy/CDN/img/custom/donate/AliPayQR.jpg"></li>
-              <li class="wechat-code"><img src="https://CDN.jsdelivr.net/gh/jxxsy/CDN/img/custom/donate/WeChanQR.jpg"></li>
-            </ul>
+  <div class="pattern-center single-center">
+    <!-- 有配图默认渲染第一张 -->
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://pic2.zhimg.com/v2-38ab89ace57e9b808308303d14a20d51_1440w.jpg?source=172ae18b);" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://pic2.zhimg.com/v2-38ab89ace57e9b808308303d14a20d51_1440w.jpg?source=172ae18b">
+    </div>
+    <header class="pattern-header single-header">
+      <h1 class="entry-title">
+      FL studio延音踏板写法</h1>
+      <p class="entry-census">
+        <span>
+          <a href="jxxsy.gitee.io">
+            <img src="https://cdn.jsdelivr.net/gh/jxxsy/cdn/img/custom/avatar.jpg">
+          </a>
+        </span>
+        <span>
+          <a href="jxxsy.gitee.io">江浔惜碎月</a>
+        </span>
+        <span class="bull">
+        ·</span>
+        2020-4-8<span class="bull">
+        ·</span>
+      <span id="busuanzi_value_page_pv"></span>次阅读</p>
+    </header>
+  </div>
+
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+        
+        <div class="entry-content">
+          <p>本人是个学设计的菜狗，本文可能不是很专业，没有几个字，完全阅读需要2min左右。前面是用<strong>midi out</strong>的，可以<strong>直接跳过</strong>看后面的部分。</p>
+<p>许多人喜欢用MIDI OUT来写踏板和其它CC，我感觉繁杂极了。也有人表示不写踏板，直接拉长音符……</p>
+<p><div align="center"><img src="https://pic4.zhimg.com/80/v2-dc58e33400ff5e23945f916c9383063f_720w.jpg" alt></div></p>
+<blockquote>
+<p>复习一下用 midi out 的方法（长久没用它我都快忘了）。midi out顾名思义就是输出midi信号的插件。既然要输出，就得有地方接收它，这个地方就是你要做踏板的乐器。输出所走的路线就叫“port”。<br>第一步：目标乐器input port 设为你想要的port</p>
+</blockquote>
+<p><div align="center"><img src="https://pic4.zhimg.com/80/v2-8e2be6dbaa6ba18a5396a823b94b3d9b_720w.jpg" alt></div></p>
+<blockquote>
+<p>第二步：加载一个midi out，port改成和目标乐器一样。如果是普通乐器Channel随便设置，如果是Kontakt这样的加载了多个乐器的，那你选择对应的就好了。然后点击下面旋钮右上角的小齿轮，再选择controller 为64号。&lt;PS：midi标准中延音控制器都是64号，其它踏板我给忘了。&gt;最后点accept应用。</p>
+</blockquote>
+<p><div align="center"><img src="https://pic1.zhimg.com/80/v2-929a6f361e14fcab0d0705e62c381884_720w.jpg" alt></div></p>
+<blockquote>
+<p>此时，你可以右键那个旋钮，添加一个自动化控制，不过我觉得应该不会有人这样玩吧 在钢琴窗打开的时候你点击Edit events in piano roll可以在钢琴窗里编辑了。但是你会发现多了个MIDI OUT不是什么好事（反正我这么觉得）。</p>
+</blockquote>
+<p><div align="center"><img src="https://pic3.zhimg.com/80/v2-ab59e3fbe43d29075c0990cd6ef0d472_720w.jpg" alt></div></p>
+<h2 id="不用MIDI-OUT-的方法："><a href="#不用MIDI-OUT-的方法：" class="headerlink" title="不用MIDI OUT 的方法："></a><strong>不用MIDI OUT 的方法：</strong></h2><p>点击你乐器的“倒三角”，点Browse parameters（浏览参数）。</p>
+<p><div align="center"><img src="https://pic4.zhimg.com/80/v2-fd9de5ecbc34059f77e55a9b118c2ca3_720w.jpg" alt></div></p>
+<p>然后在左边会出现所有的参数了，选择CC 64，右键选择在钢琴窗里编辑。</p>
+<p><div align="center"><img src="https://pic3.zhimg.com/80/v2-3ac29e35758085ec8d7a747614ea8166_720w.jpg" alt></div></p>
+<p>如果你只需要使用几个控制器，完全用不着MIDI OUT，即使是kontakt Qin_RV这样的，也可以如法炮制。</p>
+<p>其实我就是不太能搞懂大家为啥都喜欢用MIDI OUT啦，哈哈。</p>
+<p><div align="center"><img src="https://pic1.zhimg.com/80/v2-5d780c8d95e4bb250df7f9950e161cb4_720w.jpeg" alt></div></p>
+<p>莫不是我太菜的缘故 ………………</p>
+
+        </div>
+        <!-- .entry-content -->
+        <div class="single-reward">
+          <div class="reward-open">赏
+            <div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="https://CDN.jsdelivr.net/gh/jxxsy/CDN/img/custom/donate/AliPayQR.jpg"></li>
+                <li class="wechat-code"><img src="https://CDN.jsdelivr.net/gh/jxxsy/CDN/img/custom/donate/WeChanQR.jpg"></li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-      <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
-      <footer class="post-footer">
-        <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
-        <div class="post-tags">
-        </div>
-        <div class="post-share">
-          <div class="social-share sharehidden share-component"></div>
-          <i class="iconfont show-share icon-forward"></i>
-        </div>
-      </footer><!-- .entry-footer -->
-    </article>
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <footer class="post-footer">
+          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share">
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
+      </article>
       <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+          
+            <div class="post-nepre half previous">
+          
+            <a href="/2020/12/12/hello-world/" rel="prev">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.pixabay.com/photo/2017/05/13/15/18/dear-2309801_960_720.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.pixabay.com/photo/2017/05/13/15/18/dear-2309801_960_720.jpg">
+              </div>
+              <span class="label">
+              Previous Post</span>
+              <div class="info">
+                <h3>
+                Jxxsy个人站</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+        
+          
+            <div class="post-nepre half next">
+          
+            <a href="/2020/02/12/技术/生产力工具/" rel="next">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://pic4.zhimg.com/v2-b8ab6eec9cf3d674e5f286f16b855088_r.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://pic4.zhimg.com/v2-b8ab6eec9cf3d674e5f286f16b855088_r.jpg">
+              </div>
+              <span class="label">
+              Next Post</span>
+              <div class="info">
+                <h3>
+                如何提高你使用电脑的效率</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
+      
+<div id="vcomments"></div>
+<script>
+  window.onload = function(){
+      var valine = new Valine();
+      valine.init({
+        el: '#vcomments',
+        appId: "qo7STNoKPjclTygJHOkFiLOd-gzGzoHsz",
+        appKey: "9go1vN5UzJbaAE9Mtf9O0rzL",
+        path: window.location.pathname,
+        placeholder: "你是我一生只会遇见一次的惊喜 ..."
+      })
+  }
+</script>
+
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
-          <a href="/about/" class="profile gravatar"><img src="https://CDN.jsdelivr.net/gh/jxxsy/CDN/img/custom/avatar.jpg" itemprop="image" alt="Jxxsyの站" height="70" width="70"></a>
+          <a href="jxxsy.gitee.io" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/jxxsy/cdn/img/custom/avatar.jpg" itemprop="image" alt="江浔惜碎月" height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
-            <a href="https://space.bilibili.com/312119215" itemprop="url" rel="author">Jxxsyの站</a>
+            <a href="jxxsy.gitee.io" itemprop="url" rel="author">江浔惜碎月</a>
             </h3>
           </div>
         </div>
         <hr>
-        <p><i class="iconfont icon-write"></i>数点雨声风约住，朦胧淡月云来去。</p>
+        <p><i class="iconfont icon-write"></i>一个好奇的废物</p>
       </section>
+    </main><!-- #main -->
   </div><!-- #primary -->
 </div>
+
+
+
     </div>    
     <div class="ins-search">
     <div class="ins-search-mask"></div>

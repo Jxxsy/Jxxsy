@@ -61,15 +61,35 @@
   </entry>
   
   <entry>
+    <title>去日的作（一）</title>
+    <link href="https://jxxsy.gitee.io/2021/01/03/literature/%E7%9F%AD%E5%B0%8F%E8%AF%B4%EF%BC%88%E5%8E%BB%E6%97%A5%E7%9A%84%E4%BD%9C%EF%BC%89/"/>
+    <id>https://jxxsy.gitee.io/2021/01/03/literature/短小说（去日的作）/</id>
+    <published>2021-01-03T05:23:58.000Z</published>
+    <updated>2021-04-02T13:42:14.389Z</updated>
+    
+    <summary type="html">
+    
+      以前的短小说四则
+    
+    </summary>
+    
+      <category term="文学" scheme="https://jxxsy.gitee.io/categories/%E6%96%87%E5%AD%A6/"/>
+    
+    
+      <category term="悦读" scheme="https://jxxsy.gitee.io/tags/%E6%82%A6%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Jxxsy个人站</title>
     <link href="https://jxxsy.gitee.io/2020/12/12/hello-world/"/>
     <id>https://jxxsy.gitee.io/2020/12/12/hello-world/</id>
     <published>2020-12-12T14:16:01.000Z</published>
-    <updated>2021-04-02T04:51:41.035Z</updated>
+    <updated>2021-04-02T12:19:19.416Z</updated>
     
     <summary type="html">
     
-      本站说明（使用指南）
+      本站说明（食用指南）
     
     </summary>
     
@@ -83,11 +103,49 @@
   </entry>
   
   <entry>
+    <title>FL studio延音踏板写法</title>
+    <link href="https://jxxsy.gitee.io/2020/04/08/literature/FLstudio%E5%BB%B6%E9%9F%B3%E8%B8%8F%E6%9D%BF/"/>
+    <id>https://jxxsy.gitee.io/2020/04/08/literature/FLstudio延音踏板/</id>
+    <published>2020-04-08T06:23:08.000Z</published>
+    <updated>2021-04-02T14:20:09.706Z</updated>
+    
+    <summary type="html">
+    
+      FL studio延音踏板写法
+    
+    </summary>
+    
+      <category term="音乐" scheme="https://jxxsy.gitee.io/categories/%E9%9F%B3%E4%B9%90/"/>
+    
+    
+      <category term="FL Studio" scheme="https://jxxsy.gitee.io/tags/FL-Studio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何提高你使用电脑的效率</title>
+    <link href="https://jxxsy.gitee.io/2020/02/12/%E6%8A%80%E6%9C%AF/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7/"/>
+    <id>https://jxxsy.gitee.io/2020/02/12/技术/生产力工具/</id>
+    <published>2020-02-12T04:24:53.000Z</published>
+    <updated>2021-04-02T14:08:47.950Z</updated>
+    
+    <summary type="html">
+    
+      生产力工具分享
+    
+    </summary>
+    
+      <category term="摄影" scheme="https://jxxsy.gitee.io/categories/%E6%91%84%E5%BD%B1/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hexo-Theme-Sakura</title>
     <link href="https://jxxsy.gitee.io/2018/12/12/Hexo-Theme-Sakura/"/>
     <id>https://jxxsy.gitee.io/2018/12/12/Hexo-Theme-Sakura/</id>
     <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2021-04-02T07:40:47.760Z</updated>
+    <updated>2021-04-02T12:30:04.578Z</updated>
     
     <summary type="html">
     
