@@ -4079,8 +4079,10 @@ li.feature-2 {
     width:63%;
     margin:auto;
     font-size:16px;
-    color:#eaeadf;
-    background:rgba(0,0,0,.5);
+    color:#ffffff;
+    /* 默认签名颜色color:#eaeadf; */
+    background:rgba(153, 153, 153, 0.5);
+    /* 默认（0,0,0,.5） */
     padding:15px;
     margin-top:22px;
     letter-spacing:0;
